@@ -1,7 +1,6 @@
 from tools import *
 
 
-
 def denglu(driver, phone, mima, wait):
     """登录"""
     error_text = ""

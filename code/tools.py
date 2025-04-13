@@ -3,7 +3,7 @@ from lxml import etree
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from in_file import *
+from writeInfile import *
 
 def element_exists(driver, by, value):
     """判断元素是否存在,返回true或false"""
